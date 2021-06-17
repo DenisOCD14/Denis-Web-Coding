@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<link rel="icon" href="favicon.png">
+<title>Home | World Travel</title>
+
+<meta name="description" content="World Travel, travel with us and see the most beautiful and majestic places, that have to be see to be believed. Contact us today to see what vacation packages we offer.">
+        
+<meta name="keywords" content="travel, airplane, flying, vacation, holiday, relaxing">
+
+    
+<link rel="stylesheet" href="css/travel-styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+    
+<body>
+
+<main id="container">
+    
+<header id="mainHeader">
+    
+<img src="images/logo-01.svg" alt="logo" width="150 px" class="logo">
+    <article class="textHeader">
+
+    <p>Phone 
+       1.888.345.899<br> 
+       Email
+       <a href="mailto:info@worldtravel.com" class="emailHeader">info@worldtravel.com</a> 
+    </p>
+    </article>
+    
+    </header>
+
+<nav id="mainNav">
+    <nav class="search-container">
+  <input type="text" placeholder="Search..">
+  <button type="submit"><i class="fa fa-search"></i></button>
+  <a href="index.html" class="current">home</a>
+  <a href="about.html">about</a>
+  <a href="#">vacations</a>
+  <a href="#">contact</a>
+        </nav>
+    </nav>
+    
+    <section>
+    <img src="images/architecture.jpg" alt="old building" width="600px">
+    </section>
+    
+    
+<section class="row">
+  <article class="column">
+    <h3 class="headings">Planning your <br>next vacation</h3>
+    <img src="images/AdobeStock_293306703-03.svg" alt="planning" class="bodyImages">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+      
+    <a href="#" class="links">find out more</a>
+    </article>
+  
+  <article class="column">
+    <h3 class="headings">Recommended places to see</h3>
+      <img src="images/AdobeStock_293306703-02.svg" alt="recommend" class="bodyImages">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+      
+    <a href="#" class="links">find out more</a>
+    </article>
+  
+  <article class="column">
+    <h3 class="headings">What to <br>prepare for</h3>
+      <img src="images/AdobeStock_293306703-01.svg" alt="prepare" class="bodyImages">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+      
+    <a href="#" class="links">find out more</a>
+    </article>
+    </section>
+
+
+    
+</main> 
+    <footer id="mainFooter">
+<section class="row">
+  <article class="column">
+    <h4 class="headingsFooter">how to contact us</h4>
+    <p>Phone 
+       1.888.345.899<br> 
+       Email
+       
+        <a href="mailto:info@worldtravel.com" class="email">info@worldtravel.com</a> 
+       <br><br>
+       &copy; 2019 World Travel
+    </p>
+    </article>
+  
+  <article class="column">
+    </article>
+  
+  <article class="column">
+    <h4 class="headingsFooter">follow us on <br>social media</h4>
+      
+  <section class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+      </section>
+      
+    </article>
+    </section>
+
+</footer>
+</body>
+</html>
