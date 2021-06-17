@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Snowhere Tours</title>
+	
+<meta name="description" content="Snowhere Tours, where all your snow adventures are unforgettable experiences">
+	
+<meta name="keywords" content="Skiing, Snowmobiling, Mountain Climbing, Hotels, Scenery, Adventure">
+	
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--FAVICON-->
+<link rel="icon" type="image/png" href="favicon-01.png" />
+
+<!--RESET-->
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+    
+<!--SITE STYLES-->
+<link rel="stylesheet" type="text/css" href="css/snowherestyles.css">
+	
+<!--FONT AWESOME-->
+<link rel="stylesheet" type="text/css" href="css/fontawesome.css" />
+
+<!--jQUERY-->
+<script src="js/jquery-1.11.1.min.js"></script>
+
+<!--FONT AWESOME-->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<!--SLIICKNAV-->    
+<!-- SLICKNAV - CSS & JS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.js"></script>
+    
+<script>
+	$(function(){
+		$('#menu').slicknav({
+			label: 'NAV'
+		});
+	});
+</script>
+	
+<!--MY CURRENT CLASS-->
+<script>
+//CURRENT CLASS
+$(document).ready(function () {
+    $(window).scroll(function () {
+
+        var y = $(this).scrollTop();
+		
+        $('nav ul li a').each(function (event) {
+            if (y >= $($(this).attr('href')).offset().top - 90) {
+                $('nav ul li a').not(this).removeClass('current');
+                $(this).addClass('current');
+            }
+			/*if (y = $($(this).attr('href')).offset().top - 800) {
+				$('nav ul li a').not(this).removeClass('current');
+                $($("nav ul li:last-child")).addClass('current');
+			}*/
+        });
+
+    });
+});
+
+</script>
+    
+<!---SMOOTH SCROLL-->
+    <script>
+   	$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+    </script>
+    
+<!---CURRENT SCROLL-->
+    
+  <script>
+    $(document).ready(function() {
+      $(window).scroll(function() {
+        var y = $(this).scrollTop();
+        $('#nav a').each(function(event) {
+          if (y >= $($(this).attr('href')).offset().top - 90) {
+            $('#nav a').not(this).removeClass('current');
+            $(this).addClass('current');
+          }
+        });
+      });
+    });
+  </script>
+
+  <!-- UP BUTTON -->
+  <script>
+    $(window).on("scroll", function() {
+      if ($(window).scrollTop() > 800) {
+        $("#goUp").fadeIn(400);
+      } else {
+        $("#goUp").fadeOut(400);
+      }
+    });
+  </script>
+	
+	<!--FLEXSLIDER-->
+     <link rel="stylesheet" href="css/flexslider.css">
+        
+        <script src="js/flexslider.js"></script>
+        <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+        $('.flexslider').flexslider();
+        });
+        </script>
+<!--FITVIDS-->
+        <script src="js/jquery.flexslider.js"></script>
+        
+        <script src="path/to/jquery.min.js"></script>
+        <script src="path/to/jquery.fitvids.js"></script>
+        <script>
+        $(document).ready(function(){
+        // Target your .container, .wrapper, .post, etc.
+        $("#thing-with-videos").fitVids();
+        });
+</script>
+
+</head>
+
+<body>
+	
+	<header id="mainHeader"></header>
+      
+
+<!---NAV--->
+    <nav id="mainNav">
+        <ul id="menu">
+        <li><a href="#home" class="current">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#tours">Tours</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+<section id="home" class="container">
+    <h1>Home</h1>
+	<div id="hero">
+        <div class="flexslider">
+        <ul class="slides">
+        <li>
+        <img src="images/snowmobile.jpg" alt="snowmobile" />
+        </li>
+        <li>
+        <img src="images/two-man-hiking.jpg" alt="men hiking" />
+        </li>
+        <li>
+        <img src="images/woman.jpg" alt="woman" />
+        </li>
+  </ul>
+</div>
+        </div>
+    
+    
+    </section>
+    
+    
+    <div class="bgWhite">
+	
+    <section id="about" class="container">
+	<section>
+    <h1>About</h1>
+		
+	<section class="col12 fl">
+        
+        <video class="responsive" controls poster="images/man-snow-skiing.jpg">
+        <source src="media/Man Skiing During Daytime.mp4" type="video/mp4">
+        
+        </video>
+            
+        <p class="bodyText">Pretty adventure blogger simple, webdesign Travel darn fun travelblogger fun cute WordPress. Organized traveling WordPress organized adventure darn, adventure adventure fun organized.</p>
+        
+        
+        </section>
+        <section class="col12 fl">
+			
+		<video class="responsive" controls poster="images/panoramic-view-of-trees-on-snow-covered-landscape-326057.jpg">
+        <source src="media/Pexels Videos 905045.mp4" type="video/mp4">
+        
+			</video>
+        
+        <p class="bodyText">Pretty adventure blogger simple, webdesign Travel darn fun travelblogger fun cute WordPress. Organized traveling WordPress organized adventure darn, adventure adventure fun organized.</p>
+			
+        
+</section></section>
+<div class="clear"></div>
+    
+    
+</section>
+</div>
+    
+    
+<div class="bgPhoto2"></div>
+    
+    
+    
+    
+    <div class="bgWhite">
+    <section id="tours" class="container">
+    <h1>Tours</h1>
+    
+	<section class="col13 fl">
+	<img class="icon" src="images/snowmobile.svg" alt="snowmobile">
+	<h2>Snowmobile Tours</h2>
+    <p class="bodyText">Pretty adventure blogger simple, webdesign Travel darn fun travelblogger fun cute WordPress.</p>
+	</section>
+		
+	<section class="col13 fl">
+	<img class="icon" src="images/skiing.svg" alt="skiing">
+	<h2>Skiing Tours</h2>
+    <p class="bodyText">Pretty adventure blogger simple, webdesign Travel darn fun travelblogger fun cute WordPress.</p>
+	</section>   
+		
+	<section class="col13 fl">
+	<img class="icon" src="images/mountainclimbing.svg" alt="mountain">
+	<h2>Mountain Climbing Tours</h2>
+    <p class="bodyText">Pretty adventure blogger simple, webdesign Travel darn fun travelblogger fun cute WordPress.</p>
+	</section>   
+    
+    </section>
+    </div>
+	
+	<div class="bgPhoto3"></div>
+     <div class="bgWhite">
+     <section id="contact" class="container">
+    <h1>Contact Us</h1>
+    
+		<section class="col12 fl">
+	    <form action="form.php" method="post" enctype="multipart/form-data" id="form"> 
+		    
+		    <input name="name" required="required" placeholder="Your Name">
+		    
+		            
+		    
+		    <input name="email" type="email" required="required" placeholder="Your Email">
+		            
+		    
+		    
+		    <textarea name="message" cols="20" rows="5" required="required" placeholder="Message"></textarea>
+		    
+		            
+		    <input id="submit" name="submit" type="submit" value="submit">
+	        
+	    </form>
+		 </section>
+		 
+		 <section class="col12 fl">
+		 <h2>Where We Ski</h2><br> 
+		 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2850.063436365386!2d-79.79443068475551!3d44.41134397910259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882a99c6c9f324e3%3A0x98f2c22929edf106!2sSnow%20Valley%20Ski%20Resort!5e0!3m2!1sen!2sca!4v1576981022801!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </section>
+	
+    <section class="col12 fl">
+	
+    <h2>Our Address</h2>
+	
+    <p>Unit 1055, 781 Front Street, Toronto ON, M5A 3C4</p>
+	  </section>
+		 
+		 <section class="col33 fl">
+		<h2>Follow us</h2>
+	
+<a href="#"><i class="fa fa-envelope"></i></a> 
+<a href="#"><i class="fa fa-twitter"></i></a> 
+<a href="#"><i class="fa fa-facebook"></i></a> 
+<a href="#"><i class="fa fa-instagram"></i></a>
+</section>
+		 </section>
+		    <footer class="col33">
+		 	<p class="copyright">&#169; 2020 Snowhere Tours</p>
+  
+</footer>
+</div>
+	
+		 <div class="clear"></div>
+
+</body>
+
+</html>
