@@ -1,0 +1,280 @@
+/*******GLOBAL**********/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:500');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200');
+
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: url(../images/bali.jpg) no-repeat center center fixed;
+}
+
+/**********LAYOUT********/
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px 40px 20px; 40px;
+    background-color:#fff;
+    border-radius: 2px 2px 0 0;
+}
+
+#mainHeader {
+  background-color: #FFF;
+  padding: 0px 0px;
+  text-align: left;
+}
+
+.logo {
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.textHeader {
+    position: inherit;
+    float: right;
+    padding-top: 60px;
+    left: 450px;
+}
+
+.textHeader p {
+    font-family: Poppins;
+    font-weight: 100;
+}
+
+.emailHeader {
+    font-size: 0.9em;
+    font-family: Poppins;
+    color: #3cb46a;
+    text-decoration: none;
+    cursor: default;
+}
+
+.emailHeader a {
+  color: #000;
+}
+
+.emailHeader a:hover {
+  color: #000; 
+}
+
+/**********NAV********/
+
+#mainNav {
+  overflow: hidden;
+  background-image: linear-gradient(#20d9bd,#3cb46a);
+  padding-left: 10px;
+  border-radius: 2px;
+}
+
+#mainNav a {
+  float: left;
+  border-left: .5px solid #000;
+  display: block;
+  color: #FFF;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+#mainNav a:hover {
+  background-color: #3cb46a;
+  color: black;
+  cursor: default;
+  color: transparent;
+  text-shadow: rgba(000,000,000,0.5) 1px 1px 1px;
+}
+
+#mainNav input[type=text] {
+  float: left;
+  padding: 5px;
+  border: 1px solid #000;
+  margin-top: 12px;
+  margin-left: 10px;
+  font-size: 17px;
+  height: 16px;
+  border-radius: 15px 0 0 15px;
+}
+
+#mainNav .search-container button {
+  float: left;
+  padding: 6px 10px;
+  margin-top: 12px;
+  margin-right: 30px;
+  background: #ddd;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 15px 15px 0;
+}
+
+#mainNav .search-container button:hover {
+  background: #00f5ff;
+  cursor: default;
+}
+
+/**********BODY********/
+
+.bodyImages {
+    width: 120px;
+    position: relative;
+    padding-left: 10px;
+}
+
+p {
+    font-size: .9em;
+    font-family: Roboto;
+}
+
+img {
+    border-radius: 2px;
+    margin-top: 25px;
+}
+
+.links {
+    background-color: #20d9bd;
+    width: 90px;
+    color: #FFF;
+    padding: 5px 10px;
+    font-family: Roboto;
+    border-radius: 2px;
+    text-decoration: none;
+    cursor: default;
+}
+
+.links a {
+  color: white;
+}
+
+.links a:hover {
+  background-color: #00f5ff;
+  color: white;
+}
+
+h3 {
+    line-height: 20px!important;
+}
+
+/**********FOOTER********/
+
+#mainFooter {
+    background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+    background-size: 20px 20px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px 40px;
+    border-radius: 0px 0px 2px 2px;
+}
+
+.headingsFooter {
+    font-size: 1em;
+    font-family: Poppins;
+    color: #3cb46a;
+}
+
+
+#mainFooter p {
+    font-size: 0.8em;
+    font-family: Roboto;
+    color: #FFF;
+}
+
+.email {
+    font-size: 0.9em;
+    font-family: Roboto;
+    color: #FFF;
+    text-decoration: none;
+    cursor: default;
+}
+
+}
+.email a {
+  color: #000;
+}
+
+.email a:hover {
+  color: #00f5ff; 
+}
+
+.icon-bar {
+  display: inline;
+  align-content: space-around;
+  position: relative;
+  top: 50%;
+  width: 25px!important;
+}
+
+.icon-bar a {
+  text-align: right;
+  padding: 5px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+  cursor: default;
+}
+
+.icon-bar a:hover {
+  background-color: #00f5ff; 
+}
+
+.facebook {
+  background: #3cb46a;
+  color: white;
+}
+
+.twitter {
+  background: #3cb46a;
+  color: white;
+}
+
+.instagram {
+  background: #3cb46a;
+  color: white;
+}
+
+.youtube {
+  background: #3cb46a;
+  color: white;
+}
+/**********REUSEABLE CLASSES********/
+
+.headings {
+    font-family: Poppins;
+    line-height: 20px;
+    color: #20d9bd;
+}
+
+.column {
+  float: left;
+  width: 28%;
+  padding: 15px;
+}
+
+
+.row:after {
+  content: "";
+  display:block;
+  clear: both;
+}
+
+@media screen and (max-width:600px) 
+  .column {
+    width: 100%;
+  }
